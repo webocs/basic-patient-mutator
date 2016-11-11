@@ -1,0 +1,33 @@
+{
+
+  "name": "patientmatch",
+  "version": "1.0.0",
+  "description": "Algoritmo para macheo de pacientes",
+  "main": "match.js",
+  "dependencies": {
+    "chance": "^1.0.4",
+    "jsdoc": "^3.4.0"
+  },
+  "devDependencies": {},
+
+  "name": "testdires",
+  "version": "1.0.1",
+  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "private": true,
+  "main": "app.js",
+
+  "scripts": {
+    "start": "node --use_strict start.js"
+  },
+  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "ssh://57ed99900c1e668ad3000144@testdires-dessin3.rhcloud.com/~/git/testdires.git/"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1"
+  }
+}
